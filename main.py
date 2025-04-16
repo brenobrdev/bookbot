@@ -22,7 +22,7 @@ def main():
             if character.isalpha():
                 print(f"{character}: {characters_in_book[character]}")
     except IndexError as index_error:
-        print("Usage: python3 main.py <path-to-book>")
+        print("Usage: python3 main.py <path_to_book>")
         sys.exit(1)
 
 main()
